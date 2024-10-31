@@ -1,11 +1,10 @@
-import { BiLogOut } from 'react-icons/bi'
-import { Link } from 'react-router-dom'
-import { auth } from '../../services/firebaseConnection'
-import { signOut } from 'firebase/auth'
+import {BiLogOut} from 'react-icons/bi'
+import {Link} from 'react-router-dom'
+import {auth} from '../../services/firebaseConnection'
+import {signOut} from 'firebase/auth'
 
-export function Header(){
-
-    async function handleLogout(){
+export function Header() {
+    async function handleLogout() {
         await signOut(auth);
     }
 
@@ -25,7 +24,6 @@ export function Header(){
                         Redes sociais
                     </Link>
                 </div>
-
                 <button onClick={handleLogout}>
                     <BiLogOut size={28} color='#db2629' />
                 </button>
