@@ -1,25 +1,25 @@
 
-# 🌐 Meus Links Pessoais
+#  Meus Links Pessoais
 
-## 📝 Descrição
+##  Descrição
 
 Este é um site simples e eficiente que permite gerenciar e compartilhar links pessoais de forma organizada e visualmente agradável. A aplicação foi desenvolvida com **React**, **TypeScript** e **TailwindCSS**, utilizando o **Firebase** para autenticação e banco de dados. Usuários autenticados podem acessar um painel de administração para gerenciar seus links, enquanto visitantes podem visualizar e explorar as redes sociais e links cadastrados.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
-- **📱 Design Responsivo**: Layout que se adapta a diferentes tamanhos de tela, garantindo uma ótima experiência em dispositivos móveis e desktops.
-- **🔐 Autenticação**: Apenas usuários autenticados têm acesso à área administrativa para gerenciar os links.
-- **🔗 Gestão de Links**: Funcionalidade para adicionar, editar e remover links personalizados, com uma interface amigável para o usuário.
+- ** Design Responsivo**: Layout que se adapta a diferentes tamanhos de tela, garantindo uma ótima experiência em dispositivos móveis e desktops.
+- ** Autenticação**: Apenas usuários autenticados têm acesso à área administrativa para gerenciar os links.
+- ** Gestão de Links**: Funcionalidade para adicionar, editar e remover links personalizados, com uma interface amigável para o usuário.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Frontend**:
-  - ⚛️ **ReactJS**: Biblioteca JavaScript para construção de interfaces dinâmicas e reativas.
-  - 🟦 **TypeScript**: Superset de JavaScript que adiciona tipagem estática ao código, aumentando a segurança e eficiência no desenvolvimento.
-  - 🎨 **TailwindCSS**: Framework CSS que possibilita um design rápido e personalizável.
-  - 🔥 **Firebase**: Responsável pela autenticação e pelo banco de dados em tempo real da aplicação.
+  -  **ReactJS**: Biblioteca JavaScript para construção de interfaces dinâmicas e reativas.
+  -  **TypeScript**: Superset de JavaScript que adiciona tipagem estática ao código, aumentando a segurança e eficiência no desenvolvimento.
+  -  **TailwindCSS**: Framework CSS que possibilita um design rápido e personalizável.
+  -  **Firebase**: Responsável pela autenticação e pelo banco de dados em tempo real da aplicação.
 
-## 🔧 Configuração do Firebase
+##  Configuração do Firebase
 
 Para executar o projeto localmente, você precisa configurar o Firebase para a autenticação e o banco de dados.
 
@@ -50,33 +50,33 @@ Para executar o projeto localmente, você precisa configurar o Firebase para a a
 
 Após essas configurações, o Firebase estará pronto para uso no ambiente local.
 
-## 🗂️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ### Frontend
 
-- 📂 **`src/components/`**: Componentes reutilizáveis que formam a base da interface da aplicação:
-  - 🗂️ **Header**: Cabeçalho da aplicação.
-  - 🔤 **Input**: Componentes de entrada de dados.
-  - 🔗 **Social**: Exibição dos links sociais cadastrados.
+-  **`src/components/`**: Componentes reutilizáveis que formam a base da interface da aplicação:
+  -  **Header**: Cabeçalho da aplicação.
+  -  **Input**: Componentes de entrada de dados.
+  -  **Social**: Exibição dos links sociais cadastrados.
   
-- 📂 **`src/pages/`**: Páginas principais que compõem o site:
-  - 👨‍💼 **Admin**: Painel administrativo para gerenciamento dos links.
-  - ❌ **Error**: Página de erro para rotas inexistentes.
-  - 🏠 **Home**: Página inicial com links públicos do usuário.
-  - 🔐 **Login**: Página de autenticação do usuário.
-  - 🌐 **Networks**: Página com lista de links e redes sociais conectadas.
+-  **`src/pages/`**: Páginas principais que compõem o site:
+  -  **Admin**: Painel administrativo para gerenciamento dos links.
+  -  **Error**: Página de erro para rotas inexistentes.
+  -  **Home**: Página inicial com links públicos do usuário.
+  -  **Login**: Página de autenticação do usuário.
+  -  **Networks**: Página com lista de links e redes sociais conectadas.
   
-- 📂 **`src/routes/`**: Configuração de rotas e gerenciamento de acessos.
-  - 🔒 **Private.tsx**: Componente de rota privada, garantindo acesso apenas para usuários autenticados.
+-  **`src/routes/`**: Configuração de rotas e gerenciamento de acessos.
+  -  **Private.tsx**: Componente de rota privada, garantindo acesso apenas para usuários autenticados.
 
-- 📂 **`src/services/`**: Integração com o Firebase para autenticação e conexão com banco de dados.
-  - 🔥 **firebaseConnection.ts**: Lida com conexões e operações do Firebase.
+-  **`src/services/`**: Integração com o Firebase para autenticação e conexão com banco de dados.
+  -  **firebaseConnection.ts**: Lida com conexões e operações do Firebase.
 
-- 📂 **`src/App.tsx`**: Componente raiz que organiza as rotas e define a estrutura básica do layout da aplicação.
-- 📂 **`src/index.css`**: Arquivo de estilos globais.
-- 📂 **`src/main.tsx`**: Arquivo de entrada principal da aplicação.
+-  **`src/App.tsx`**: Componente raiz que organiza as rotas e define a estrutura básica do layout da aplicação.
+-  **`src/index.css`**: Arquivo de estilos globais.
+-  **`src/main.tsx`**: Arquivo de entrada principal da aplicação.
 
-## ⚙️ Instalação e Execução
+##  Instalação e Execução
 
 1. **Clone o repositório do projeto:**
    ```bash
